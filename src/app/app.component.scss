@@ -1,0 +1,52 @@
+/* Smooth scrolling for the page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Flexbox for layout */
+.example-spacer {
+  flex: 1 1 auto;
+}
+.navbar{
+  background: green;
+}
+.main-body {
+  padding-top: 20px;
+  margin: 0 ;
+  padding: 0;
+  background: gray;
+  max-width: 1348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+/* Style form fields */
+.mat-form-field {
+  width: 100%;
+}
+
+/* Button styling */
+.action {
+  display: flex;
+  gap: 10px;
+}
+
+.action button {
+  padding: 12px 24px;
+  background-color: #ff6b6b; /* Red */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.action button:hover {
+  background-color: #ff4d4d; /* Darker red on hover */
+}
+.addButton{
+  background: blue;
+}
